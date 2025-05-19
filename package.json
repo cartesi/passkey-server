@@ -4,7 +4,9 @@
     "type": "module",
     "scripts": {
         "build": "tsup",
-        "dev": "tsx src/cli.ts"
+        "dev": "tsx src/cli.ts",
+        "release": "pnpm run build && changeset publish",
+        "version-packages": "changeset version"
     },
     "bin": {
         "passkey-server": "dist/cli.js"
