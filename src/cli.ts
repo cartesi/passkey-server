@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { program } from "@commander-js/extra-typings";
 import { serve } from "@hono/node-server";
 import app from "./app";
