@@ -28,16 +28,16 @@
     },
     "dependencies": {
         "@commander-js/extra-typings": "^14.0.0",
-        "@hono/node-server": "^1.14.2",
-        "@simplewebauthn/server": "^13.1.1",
+        "@hono/node-server": "^1.17.1",
+        "@simplewebauthn/server": "^13.1.2",
         "commander": "^14.0.0",
-        "hono": "^4.7.8"
+        "hono": "^4.8.5"
     },
     "devDependencies": {
-        "@changesets/cli": "^2.29.4",
-        "@types/node": "^22.15.16",
+        "@changesets/cli": "^2.29.5",
+        "@types/node": "^24.0.15",
         "tsup": "^8.5.0",
-        "tsx": "^4.19.4",
+        "tsx": "^4.20.3",
         "typescript": "^5.8.3"
     },
     "packageManager": "pnpm@10.11.0"
