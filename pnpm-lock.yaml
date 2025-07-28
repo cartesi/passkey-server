@@ -13,7 +13,7 @@ importers:
         version: 14.0.0(commander@14.0.0)
       '@hono/node-server':
         specifier: ^1.17.1
-        version: 1.17.1(hono@4.8.5)
+        version: 1.17.1(hono@4.8.9)
       '@simplewebauthn/server':
         specifier: ^13.1.2
         version: 13.1.2
@@ -21,15 +21,15 @@ importers:
         specifier: ^14.0.0
         version: 14.0.0
       hono:
-        specifier: ^4.8.5
-        version: 4.8.5
+        specifier: ^4.8.9
+        version: 4.8.9
     devDependencies:
       '@changesets/cli':
         specifier: ^2.29.5
         version: 2.29.5
       '@types/node':
         specifier: ^24.0.15
-        version: 24.0.15
+        version: 24.1.0
       tsup:
         specifier: ^8.5.0
         version: 8.5.0(tsx@4.20.3)(typescript@5.8.3)
@@ -437,8 +437,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@24.0.15':
-    resolution: {integrity: sha512-oaeTSbCef7U/z7rDeJA138xpG3NuKc64/rZ2qmUFkFJmnMsAPaluIifqyWd8hSSMxyP9oie3dLAqYPblag9KgA==}
+  '@types/node@24.1.0':
+    resolution: {integrity: sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==}
 
   acorn@8.14.1:
     resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
@@ -648,8 +648,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  hono@4.8.5:
-    resolution: {integrity: sha512-Up2cQbtNz1s111qpnnECdTGqSIUIhZJMLikdKkshebQSEBcoUKq6XJayLGqSZWidiH0zfHRCJqFu062Mz5UuRA==}
+  hono@4.8.9:
+    resolution: {integrity: sha512-ERIxkXMRhUxGV7nS/Af52+j2KL60B1eg+k6cPtgzrGughS+espS9KQ7QO0SMnevtmRlBfAcN0mf1jKtO6j/doA==}
     engines: {node: '>=16.9.0'}
 
   human-id@4.1.1:
@@ -1289,9 +1289,9 @@ snapshots:
 
   '@hexagon/base64@1.1.28': {}
 
-  '@hono/node-server@1.17.1(hono@4.8.5)':
+  '@hono/node-server@1.17.1(hono@4.8.9)':
     dependencies:
-      hono: 4.8.5
+      hono: 4.8.9
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1459,7 +1459,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@24.0.15':
+  '@types/node@24.1.0':
     dependencies:
       undici-types: 7.8.0
 
@@ -1678,7 +1678,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  hono@4.8.5: {}
+  hono@4.8.9: {}
 
   human-id@4.1.1: {}
 
