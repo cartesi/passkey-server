@@ -31,7 +31,7 @@
         "@hono/node-server": "^1.17.1",
         "@simplewebauthn/server": "^13.1.2",
         "commander": "^14.0.0",
-        "hono": "^4.8.5"
+        "hono": "^4.8.12"
     },
     "devDependencies": {
         "@changesets/cli": "^2.29.5",
