@@ -1,5 +1,11 @@
 # @cartesi/passkey-server
 
+## 1.0.3
+
+### Patch Changes
+
+-   609e677: bump dependencies
+
 ## 1.0.2
 
 ### Patch Changes
