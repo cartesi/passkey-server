@@ -13,7 +13,7 @@ importers:
         version: 14.0.0(commander@14.0.0)
       '@hono/node-server':
         specifier: ^1.18.1
-        version: 1.18.1(hono@4.9.0)
+        version: 1.18.1(hono@4.9.2)
       '@simplewebauthn/server':
         specifier: ^13.1.2
         version: 13.1.2
@@ -21,8 +21,8 @@ importers:
         specifier: ^14.0.0
         version: 14.0.0
       hono:
-        specifier: ^4.9.0
-        version: 4.9.0
+        specifier: ^4.9.2
+        version: 4.9.2
     devDependencies:
       '@changesets/cli':
         specifier: ^2.29.5
@@ -648,8 +648,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  hono@4.9.0:
-    resolution: {integrity: sha512-JAUc4Sqi3lhby2imRL/67LMcJFKiCu7ZKghM7iwvltVZzxEC5bVJCsAa4NTnSfmWGb+N2eOVtFE586R+K3fejA==}
+  hono@4.9.2:
+    resolution: {integrity: sha512-UG2jXGS/gkLH42l/1uROnwXpkjvvxkl3kpopL3LBo27NuaDPI6xHNfuUSilIHcrBkPfl4y0z6y2ByI455TjNRw==}
     engines: {node: '>=16.9.0'}
 
   human-id@4.1.1:
@@ -933,6 +933,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   spawndamnit@3.0.1:
     resolution: {integrity: sha512-MmnduQUuHCoFckZoWnXsTg7JaiLBJrKFj9UI2MbRPGaJeVpsLcVBu6P/IGZovziM/YBsellCmsprgNA+w0CzVg==}
@@ -1289,9 +1290,9 @@ snapshots:
 
   '@hexagon/base64@1.1.28': {}
 
-  '@hono/node-server@1.18.1(hono@4.9.0)':
+  '@hono/node-server@1.18.1(hono@4.9.2)':
     dependencies:
-      hono: 4.9.0
+      hono: 4.9.2
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1678,7 +1679,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  hono@4.9.0: {}
+  hono@4.9.2: {}
 
   human-id@4.1.1: {}
 
